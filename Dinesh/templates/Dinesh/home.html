@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dinesh Krishnamoorthy | Python Developer</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            background: #f5f7fa;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background: #1e1e2f;
+            position: fixed;
+            padding-top: 30px;
+        }
+
+        .sidebar h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #ccc;
+            padding: 15px 30px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background: #007BFF;
+            color: white;
+        }
+
+        /* Main Content */
+        .content {
+            margin-left: 250px;
+            padding: 40px;
+            width: 100%;
+            align-items: center;
+        }
+
+        section {
+            margin-bottom: 60px;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>Profile</h2>
+    <a href="#profile">Profile</a>
+    <a href="#objective">Objective</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+    <!-- Profile -->
+    <section id="profile">
+    <h1>Dinesh Krishnamoorthy</h1>
+    <p class="highlight">Python Developer | Backend Developer</p>
+    <p>Bengaluru, Karnataka</p>
+
+    <div class="social-links">
+        <a href="https://github.com/dineshk042002" target="_blank" class="social-btn github">GitHub</a>
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID/" target="_blank" class="social-btn linkedin">LinkedIn</a>
+    </div>
+</section>
+
+
+    <!-- Objective -->
+    <section id="objective">
+        <h2>Career Objective</h2>
+        <div class="card">
+            Motivated MCA graduate with hands-on experience in Python and FastAPI.
+            Seeking an entry-level Backend Developer role to build scalable applications
+            and grow in a learning-driven IT environment.
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="card">
+            <ul>
+                <li>Python, JavaScript</li>
+                <li>FastAPI, Basic Django</li>
+                <li>HTML, CSS</li>
+                <li>MySQL, PostgreSQL, MongoDB</li>
+                <li>Git, GitHub</li>
+                <li>REST APIs, CRUD Operations</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="card">
+            <h3>Student Result Management System</h3>
+            <p>Python-based system with MySQL and CRUD operations.</p>
+        </div>
+
+        <div class="card">
+            <h3>FastAPI User Management API</h3>
+            <p>REST APIs with authentication and PostgreSQL integration.</p>
+        </div>
+
+        <div class="card">
+            <h3>Vehicle Breakdown Help Assistance</h3>
+            <p>Android application connecting vehicle users to nearby service providers.</p>
+        </div>
+        <!-- Project 4 -->
+<div class="card">
+    <h3>Personal Resume Website (Django Project)</h3>
+    <p>
+        Developed a dynamic personal resume website using Django framework.
+        Implemented structured sections like Profile, Skills, Projects, Education,
+        and Experience with smooth navigation and modern UI design.
+    </p>
+    <p>
+        Integrated Django models, views, templates, and admin panel for managing
+        resume content dynamically.
+    </p>
+    <p><strong>Tech Stack:</strong> Django, Python, HTML, CSS</p>
+    <a href="https://github.com/dineshk042002" target="_blank" class="btn">View Code</a>
+</div>
+
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div class="card">
+            <h3>Full Stack Developer Intern</h3>
+            <p>Null Class Technologies (Nov 2023 – Jan 2024)</p>
+        </div>
+
+        <div class="card">
+            <h3>Registration Executive</h3>
+            <p>Ola Electric (Mar 2025 – Present)</p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            MCA – Sacred Heart College (CGPA: 7.10)<br>
+            B.Sc Mathematics – Sacred Heart College (CGPA: 6.96)<br>
+            PG Diploma in Data Science (CGPA: 7.16)
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+            Email: dineshk042002@gmail.com <br>
+            Phone: +91 79048 06501 <br>
+            GitHub: github.com/dineshk042002
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Dinesh Krishnamoorthy | Python Developer
+    </footer>
+
+</div>
+
+</body>
+</html>
